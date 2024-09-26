@@ -3,13 +3,11 @@
 </script>
 
 <template>
-<div class="flex items-start">
-  <div>
+  <div class="grid items-start lg:flex">
     <Sidebar />
-  </div>
-  <div>
-    <slot />
-  </div>
+    <div>
+      <slot />
+    </div>
 </div>
 </template>
 
